@@ -1,0 +1,31 @@
+.dashboardLayout {
+  display: flex;
+  gap: 20px; /* Adjusted for better spacing */
+  padding-top: 20px;
+  height: 100%;
+  position: relative; /* For button positioning */
+}
+
+.universal-toggle {
+  position: absolute; /* Position the button absolutely */
+  top: -12px; /* Adjust the top position */
+  background-color: transparent;
+  padding: 10px 15px; /* Button padding */
+  color: transparent; /* Button text color */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.sidebar-icon {
+    width: 24px; /* Set icon width */
+    height: 24px; /* Set icon height */
+}
+
+.menu {
+  flex: 1;
+}
+
+.content {
+  flex: 4;
+  background-color: white;
+}
